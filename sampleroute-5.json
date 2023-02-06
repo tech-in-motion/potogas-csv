@@ -1,0 +1,5127 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mode": "light_truck",
+        "waypoints": [
+          {
+            "location": [
+              -101.008194,
+              22.203888
+            ],
+            "original_index": 0
+          },
+          {
+            "location": [
+              -100.989846,
+              22.150326
+            ],
+            "original_index": 1
+          },
+          {
+            "location": [
+              -101.000094,
+              22.152459
+            ],
+            "original_index": 2
+          },
+          {
+            "location": [
+              -100.982558,
+              22.159035
+            ],
+            "original_index": 3
+          },
+          {
+            "location": [
+              -100.986801,
+              22.168564
+            ],
+            "original_index": 4
+          },
+          {
+            "location": [
+              -100.99752,
+              22.156846
+            ],
+            "original_index": 5
+          },
+          {
+            "location": [
+              -100.996727,
+              22.153579
+            ],
+            "original_index": 6
+          }
+        ],
+        "units": "metric",
+        "details": [
+          "instruction_details",
+          "route_details"
+        ],
+        "distance": 24033,
+        "distance_units": "meters",
+        "time": 1660.304,
+        "legs": [
+          {
+            "distance": 12995,
+            "time": 737.653,
+            "steps": [
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Manuel Gutiérrez Nájera",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1892,
+                "from_index": 0,
+                "to_index": 5,
+                "distance": 246,
+                "time": 29.589941176470592,
+                "instruction": {
+                  "text": "Conduzca hacia el noroeste por Calle Manuel Gutiérrez Nájera.",
+                  "type": "StartAt",
+                  "transition_instruction": "Conduzca hacia el noroeste. Después, en 300 metros, Gire a la derecha.",
+                  "pre_transition_instruction": "Conduzca hacia el noroeste por Calle Manuel Gutiérrez Nájera. Después, en 300 metros, Gire a la derecha.",
+                  "post_transition_instruction": "Continúe durante 300 metros.",
+                  "streets": [
+                    "Calle Manuel Gutiérrez Nájera"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Manuel Gutiérrez Nájera",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1892,
+                "from_index": 5,
+                "to_index": 6,
+                "distance": 60,
+                "time": 7.217058823529412
+              },
+              {
+                "speed": 75,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "tertiary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1890,
+                "from_index": 6,
+                "to_index": 8,
+                "distance": 163,
+                "time": 10.596,
+                "instruction": {
+                  "text": "Gire a la derecha.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha. Después Gire a la izquierda para tomar la vía de salida SLP 32.",
+                  "post_transition_instruction": "Continúe durante 200 metros.",
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 77,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1890,
+                "from_index": 8,
+                "to_index": 14,
+                "distance": 29,
+                "time": 4.370129411764705,
+                "instruction": {
+                  "text": "Gire a la izquierda para tomar la vía de salida SLP 32.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda para tomar la vía de salida SLP 32.",
+                  "pre_transition_instruction": "Gire a la izquierda para tomar la vía de salida SLP 32. Después Continúe en dirección a SLP 32.",
+                  "exit_road_name": [
+                    "SLP 32"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 60,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "secondary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1890,
+                "from_index": 14,
+                "to_index": 15,
+                "distance": 56,
+                "time": 8.438870588235293
+              },
+              {
+                "speed": 75,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "secondary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1891,
+                "from_index": 15,
+                "to_index": 18,
+                "distance": 297,
+                "time": 13.931134594129924,
+                "instruction": {
+                  "text": "Continúe en dirección a SLP 32.",
+                  "type": "Straight",
+                  "transition_instruction": "Continúe en dirección a SLP 32.",
+                  "post_transition_instruction": "Continúe durante 8 kilómetros.",
+                  "streets": [
+                    "SLP 32"
+                  ]
+                }
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Anillo Periférico",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1894,
+                "from_index": 18,
+                "to_index": 19,
+                "distance": 194,
+                "time": 9.099798354414833
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Anillo Periférico",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1898,
+                "from_index": 19,
+                "to_index": 36,
+                "distance": 842,
+                "time": 39.49500110524376
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Calle Anillo Periférico",
+                "toll": false,
+                "tunnel": false,
+                "bridge": true,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1898,
+                "from_index": 36,
+                "to_index": 37,
+                "distance": 28,
+                "time": 1.3133729583691511
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Calle Anillo Periférico",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1896,
+                "from_index": 37,
+                "to_index": 42,
+                "distance": 179,
+                "time": 8.396205698145645
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1899,
+                "from_index": 42,
+                "to_index": 44,
+                "distance": 255,
+                "time": 11.9610751565762
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1902,
+                "from_index": 44,
+                "to_index": 45,
+                "distance": 371,
+                "time": 17.402191698391253
+              },
+              {
+                "speed": 73,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": true,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1906,
+                "from_index": 45,
+                "to_index": 46,
+                "distance": 146,
+                "time": 6.848301854353432
+              },
+              {
+                "speed": 73,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1908,
+                "from_index": 46,
+                "to_index": 47,
+                "distance": 273,
+                "time": 12.805386344099224
+              },
+              {
+                "speed": 73,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1912,
+                "from_index": 47,
+                "to_index": 54,
+                "distance": 774,
+                "time": 36.30538106349011
+              },
+              {
+                "speed": 73,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "trunk",
+                "name": "SLP 32, Calle Anillo Periférico",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1918,
+                "from_index": 54,
+                "to_index": 55,
+                "distance": 34,
+                "time": 1.5948100208768266
+              },
+              {
+                "speed": 73,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": true,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1918,
+                "from_index": 55,
+                "to_index": 62,
+                "distance": 375,
+                "time": 17.589816406729703
+              },
+              {
+                "speed": 90,
+                "speed_limit": 90,
+                "truck_limit": 90,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1920,
+                "from_index": 62,
+                "to_index": 65,
+                "distance": 618,
+                "time": 28.98801743829055
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1936,
+                "from_index": 65,
+                "to_index": 83,
+                "distance": 910,
+                "time": 42.684621146997415
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1942,
+                "from_index": 83,
+                "to_index": 92,
+                "distance": 125,
+                "time": 5.863272135576568
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1941,
+                "from_index": 92,
+                "to_index": 95,
+                "distance": 60,
+                "time": 2.8143706250767524
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1929,
+                "from_index": 95,
+                "to_index": 114,
+                "distance": 1733,
+                "time": 81.28840488763355
+              },
+              {
+                "speed": 73,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "trunk",
+                "name": "SLP 32, Boulevard Manuel Gómez Morín",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1902,
+                "from_index": 114,
+                "to_index": 115,
+                "distance": 94,
+                "time": 4.40918064595358
+              },
+              {
+                "speed": 73,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "trunk",
+                "name": "Avenida Sierra Leona",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1891,
+                "from_index": 115,
+                "to_index": 132,
+                "distance": 829,
+                "time": 38.8852208031438
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "primary",
+                "name": "Avenida Paseo de los Derechos Humanos",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1890,
+                "from_index": 132,
+                "to_index": 148,
+                "distance": 692,
+                "time": 47.970986036519875,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Avenida Paseo de los Derechos Humanos.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Avenida Paseo de los Derechos Humanos.",
+                  "post_transition_instruction": "Continúe durante 900 metros.",
+                  "streets": [
+                    "Avenida Paseo de los Derechos Humanos"
+                  ]
+                }
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Paseo de los Derechos Humanos",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1887,
+                "from_index": 148,
+                "to_index": 154,
+                "distance": 239,
+                "time": 16.56801396348013
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida de los Pintores",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1889,
+                "from_index": 154,
+                "to_index": 156,
+                "distance": 164,
+                "time": 11.252124777183601,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Avenida de los Pintores.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Avenida de los Pintores.",
+                  "post_transition_instruction": "Continúe durante 3 kilómetros.",
+                  "streets": [
+                    "Avenida de los Pintores"
+                  ]
+                }
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1896,
+                "from_index": 156,
+                "to_index": 171,
+                "distance": 453,
+                "time": 31.080564171122997
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1890,
+                "from_index": 171,
+                "to_index": 172,
+                "distance": 97,
+                "time": 6.655220142602496
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": true,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 0,
+                "from_index": 172,
+                "to_index": 174,
+                "distance": 122,
+                "time": 8.370483065953655
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1882,
+                "from_index": 174,
+                "to_index": 175,
+                "distance": 88,
+                "time": 6.037725490196079
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1884,
+                "from_index": 175,
+                "to_index": 176,
+                "distance": 80,
+                "time": 5.488841354723708
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1885,
+                "from_index": 176,
+                "to_index": 178,
+                "distance": 92,
+                "time": 6.3121675579322645
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1884,
+                "from_index": 178,
+                "to_index": 181,
+                "distance": 84,
+                "time": 5.763283422459893
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1884,
+                "from_index": 181,
+                "to_index": 182,
+                "distance": 24,
+                "time": 1.6466524064171122
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1884,
+                "from_index": 182,
+                "to_index": 183,
+                "distance": 19,
+                "time": 1.3035998217468805
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1882,
+                "from_index": 183,
+                "to_index": 188,
+                "distance": 152,
+                "time": 10.428798573975044
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1882,
+                "from_index": 188,
+                "to_index": 189,
+                "distance": 57,
+                "time": 3.910799465240642
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1882,
+                "from_index": 189,
+                "to_index": 190,
+                "distance": 59,
+                "time": 4.048020499108735
+              },
+              {
+                "speed": 57,
+                "speed_limit": 60,
+                "truck_limit": 60,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1880,
+                "from_index": 190,
+                "to_index": 191,
+                "distance": 59,
+                "time": 4.048020499108735
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1880,
+                "from_index": 191,
+                "to_index": 192,
+                "distance": 26,
+                "time": 1.783873440285205
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 192,
+                "to_index": 193,
+                "distance": 13,
+                "time": 0.8919367201426025
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 193,
+                "to_index": 194,
+                "distance": 38,
+                "time": 2.607199643493761
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 194,
+                "to_index": 195,
+                "distance": 48,
+                "time": 3.2933048128342244
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1880,
+                "from_index": 195,
+                "to_index": 204,
+                "distance": 410,
+                "time": 28.130311942959
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 204,
+                "to_index": 205,
+                "distance": 24,
+                "time": 1.6466524064171122
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1880,
+                "from_index": 205,
+                "to_index": 207,
+                "distance": 71,
+                "time": 4.8713467023172905
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1882,
+                "from_index": 207,
+                "to_index": 208,
+                "distance": 10,
+                "time": 0.6861051693404635
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1880,
+                "from_index": 208,
+                "to_index": 209,
+                "distance": 28,
+                "time": 1.9210944741532978
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1879,
+                "from_index": 209,
+                "to_index": 212,
+                "distance": 114,
+                "time": 7.821598930481284
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 212,
+                "to_index": 214,
+                "distance": 66,
+                "time": 4.528294117647059
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 214,
+                "to_index": 215,
+                "distance": 22,
+                "time": 1.5094313725490198
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 215,
+                "to_index": 217,
+                "distance": 210,
+                "time": 14.408208556149733
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 217,
+                "to_index": 222,
+                "distance": 264,
+                "time": 18.113176470588236
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1875,
+                "from_index": 222,
+                "to_index": 226,
+                "distance": 193,
+                "time": 13.241829768270945
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1874,
+                "from_index": 226,
+                "to_index": 228,
+                "distance": 102,
+                "time": 6.998272727272727
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 228,
+                "to_index": 232,
+                "distance": 172,
+                "time": 11.801008912655972
+              },
+              {
+                "from_index": 232,
+                "to_index": 232,
+                "distance": 0,
+                "time": 0,
+                "instruction": {
+                  "text": "Ha llegado a su destino.",
+                  "type": "DestinationReached",
+                  "transition_instruction": "Llegará a su destino.",
+                  "pre_transition_instruction": "Ha llegado a su destino."
+                }
+              }
+            ],
+            "country_code": [
+              "mx"
+            ]
+          },
+          {
+            "distance": 2307,
+            "time": 189.443,
+            "steps": [
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1872,
+                "from_index": 0,
+                "to_index": 2,
+                "distance": 219,
+                "time": 15.812171974522292,
+                "instruction": {
+                  "text": "Conduzca hacia el este por Avenida Venustiano Carranza.",
+                  "type": "StartAt",
+                  "transition_instruction": "Conduzca hacia el este. Después, en 500 metros, Haga un cambio de sentido a la izquierda en Calle Tomasa Estéves.",
+                  "pre_transition_instruction": "Conduzca hacia el este por Avenida Venustiano Carranza. Después, en 500 metros, Haga un cambio de sentido a la izquierda en Calle Tomasa Estéves.",
+                  "post_transition_instruction": "Continúe durante 500 metros.",
+                  "streets": [
+                    "Avenida Venustiano Carranza"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 2,
+                "to_index": 3,
+                "distance": 72,
+                "time": 5.19852229299363
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 3,
+                "to_index": 8,
+                "distance": 180,
+                "time": 12.996305732484077
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Tomasa Estéves",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1874,
+                "from_index": 8,
+                "to_index": 9,
+                "distance": 12,
+                "time": 0.9578370165745855,
+                "instruction": {
+                  "text": "Haga un cambio de sentido a la izquierda en Calle Tomasa Estéves para permanecer en Avenida Venustiano Carranza.",
+                  "type": "TurnAroundLeft",
+                  "transition_instruction": "Haga un cambio de sentido a la izquierda.",
+                  "pre_transition_instruction": "Haga un cambio de sentido a la izquierda en Calle Tomasa Estéves para permanecer en Avenida Venustiano Carranza.",
+                  "post_transition_instruction": "Continúe durante 1,5 kilómetros.",
+                  "streets": [
+                    "Avenida Venustiano Carranza"
+                  ]
+                }
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1875,
+                "from_index": 9,
+                "to_index": 12,
+                "distance": 253,
+                "time": 20.194397099447514
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1874,
+                "from_index": 12,
+                "to_index": 15,
+                "distance": 217,
+                "time": 17.320886049723754
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1874,
+                "from_index": 15,
+                "to_index": 17,
+                "distance": 177,
+                "time": 14.128095994475137
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1874,
+                "from_index": 17,
+                "to_index": 21,
+                "distance": 156,
+                "time": 12.451881215469612
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1875,
+                "from_index": 21,
+                "to_index": 24,
+                "distance": 135,
+                "time": 10.775666436464087
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1874,
+                "from_index": 24,
+                "to_index": 26,
+                "distance": 266,
+                "time": 21.232053867403312
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1879,
+                "from_index": 26,
+                "to_index": 29,
+                "distance": 200,
+                "time": 15.963950276243095
+              },
+              {
+                "speed": 50,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "name": "Avenida Venustiano Carranza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 29,
+                "to_index": 31,
+                "distance": 30,
+                "time": 2.394592541436464
+              },
+              {
+                "speed": 49,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "secondary",
+                "name": "Avenida Muñoz",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 31,
+                "to_index": 32,
+                "distance": 86,
+                "time": 6.870025078369906,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Avenida Muñoz.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Avenida Muñoz.",
+                  "post_transition_instruction": "Continúe durante 300 metros.",
+                  "streets": [
+                    "Avenida Muñoz"
+                  ]
+                }
+              },
+              {
+                "speed": 49,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "secondary",
+                "name": "Avenida Muñoz",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 32,
+                "to_index": 36,
+                "distance": 232,
+                "time": 18.53309090909091
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Agustín Vera",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1877,
+                "from_index": 36,
+                "to_index": 39,
+                "distance": 69,
+                "time": 14.372,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Calle Agustín Vera.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda. Después, en 70 metros, Llegará a su destino.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Calle Agustín Vera. Después, en 70 metros, Llegará a su destino.",
+                  "post_transition_instruction": "Continúe durante 70 metros.",
+                  "streets": [
+                    "Calle Agustín Vera"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "from_index": 39,
+                "to_index": 39,
+                "distance": 0,
+                "time": 0,
+                "instruction": {
+                  "text": "Ha llegado a su destino.",
+                  "type": "DestinationReached",
+                  "transition_instruction": "Llegará a su destino.",
+                  "pre_transition_instruction": "Ha llegado a su destino."
+                }
+              }
+            ],
+            "country_code": [
+              "mx"
+            ]
+          },
+          {
+            "distance": 3470,
+            "time": 265.833,
+            "steps": [
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Agustín Vera",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 0,
+                "to_index": 1,
+                "distance": 20,
+                "time": 2.4757894736842103,
+                "instruction": {
+                  "text": "Conduzca hacia el oeste por Calle Agustín Vera.",
+                  "type": "StartAt",
+                  "transition_instruction": "Conduzca hacia el oeste. Después Gire a la derecha hacia Primera Privada de Agustín Vera.",
+                  "pre_transition_instruction": "Conduzca hacia el oeste por Calle Agustín Vera. Después Gire a la derecha hacia Primera Privada de Agustín Vera.",
+                  "post_transition_instruction": "Continúe durante 20 metros.",
+                  "streets": [
+                    "Calle Agustín Vera"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Agustín Vera",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 1,
+                "to_index": 2,
+                "distance": 64,
+                "time": 9.123555555555555,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Primera Privada de Agustín Vera.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Primera Privada de Agustín Vera.",
+                  "post_transition_instruction": "Continúe durante 100 metros.",
+                  "streets": [
+                    "Primera Privada de Agustín Vera"
+                  ]
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Primera Privada de Agustín Vera",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1878,
+                "from_index": 2,
+                "to_index": 3,
+                "distance": 81,
+                "time": 11.546999999999999
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Primera Privada de Agustín Vera",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1878,
+                "from_index": 3,
+                "to_index": 4,
+                "distance": 63,
+                "time": 7.305,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Avenida Nicolás Zapata.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha. Después Gire a la izquierda hacia Avenida Muñoz.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Avenida Nicolás Zapata. Después Gire a la izquierda hacia Avenida Muñoz.",
+                  "post_transition_instruction": "Continúe durante 60 metros.",
+                  "streets": [
+                    "Avenida Nicolás Zapata"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "tertiary",
+                "name": "Avenida Nicolás Zapata",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 4,
+                "to_index": 5,
+                "distance": 42,
+                "time": 3.6744056603773587,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Avenida Muñoz.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Avenida Muñoz.",
+                  "post_transition_instruction": "Continúe durante 400 metros.",
+                  "streets": [
+                    "Avenida Muñoz"
+                  ]
+                }
+              },
+              {
+                "speed": 49,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "secondary",
+                "name": "Avenida Muñoz",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 5,
+                "to_index": 9,
+                "distance": 258,
+                "time": 22.571349056603776
+              },
+              {
+                "speed": 49,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "secondary",
+                "name": "Avenida Muñoz",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1877,
+                "from_index": 9,
+                "to_index": 13,
+                "distance": 124,
+                "time": 10.848245283018867
+              },
+              {
+                "speed": 49,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "secondary",
+                "name": "Avenida Muñoz",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 13,
+                "to_index": 14,
+                "distance": 18,
+                "time": 0.8496934768841039,
+                "instruction": {
+                  "text": "Gire a la derecha para tomar la vía de salida Boulevard Río Santiago.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha para tomar la vía de salida Boulevard Río Santiago.",
+                  "post_transition_instruction": "Continúe durante 1,5 kilómetros.",
+                  "streets": [
+                    "Boulevard Río Santiago"
+                  ],
+                  "exit_road_name": [
+                    "Boulevard Río Santiago"
+                  ]
+                }
+              },
+              {
+                "speed": 64,
+                "speed_limit": 70,
+                "truck_limit": 70,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "secondary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 14,
+                "to_index": 15,
+                "distance": 12,
+                "time": 0.5664623179227359
+              },
+              {
+                "speed": 64,
+                "speed_limit": 70,
+                "truck_limit": 70,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "secondary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1874,
+                "from_index": 15,
+                "to_index": 26,
+                "distance": 333,
+                "time": 15.719329322355922
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Boulevard Río Santiago",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1875,
+                "from_index": 26,
+                "to_index": 54,
+                "distance": 1213,
+                "time": 57.25989930335656
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Boulevard Río Santiago",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1872,
+                "from_index": 54,
+                "to_index": 55,
+                "distance": 29,
+                "time": 1.1137567567567568,
+                "instruction": {
+                  "text": "Siga por la derecha.",
+                  "type": "SlightRight",
+                  "transition_instruction": "Siga por la derecha. Después Gire a la derecha hacia Calle Pedro Moreno.",
+                  "post_transition_instruction": "Continúe durante 200 metros.",
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 94,
+                "speed_limit": 100,
+                "truck_limit": 100,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1872,
+                "from_index": 55,
+                "to_index": 64,
+                "distance": 156,
+                "time": 5.991243243243244
+              },
+              {
+                "speed": 94,
+                "speed_limit": 100,
+                "truck_limit": 100,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1872,
+                "from_index": 64,
+                "to_index": 65,
+                "distance": 23,
+                "time": 2.1542639068564036,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Calle Pedro Moreno.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Calle Pedro Moreno.",
+                  "post_transition_instruction": "Continúe durante 800 metros.",
+                  "streets": [
+                    "Calle Pedro Moreno"
+                  ]
+                }
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "name": "Calle Pedro Moreno",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1872,
+                "from_index": 65,
+                "to_index": 75,
+                "distance": 502,
+                "time": 47.01915135834411
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "name": "Calle Pedro Moreno",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1873,
+                "from_index": 75,
+                "to_index": 80,
+                "distance": 248,
+                "time": 23.228584734799483
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "name": "Calle Pedro Moreno",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1870,
+                "from_index": 80,
+                "to_index": 81,
+                "distance": 188,
+                "time": 27.454,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Calle General Ignacio Martínez.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Calle General Ignacio Martínez.",
+                  "post_transition_instruction": "Continúe durante 200 metros.",
+                  "streets": [
+                    "Calle General Ignacio Martínez"
+                  ]
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle General Ignacio Martínez",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1870,
+                "from_index": 81,
+                "to_index": 82,
+                "distance": 93,
+                "time": 17.052,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Calle Mariano Matamoros.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda. Después Su destino estará a la izquierda.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Calle Mariano Matamoros. Después Su destino estará a la izquierda.",
+                  "post_transition_instruction": "Continúe durante 90 metros.",
+                  "streets": [
+                    "Calle Mariano Matamoros"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "from_index": 82,
+                "to_index": 82,
+                "distance": 0,
+                "time": 0,
+                "instruction": {
+                  "text": "Su destino está a la izquierda.",
+                  "type": "DestinationReachedLeft",
+                  "transition_instruction": "Su destino estará a la izquierda.",
+                  "pre_transition_instruction": "Su destino está a la izquierda."
+                }
+              }
+            ],
+            "country_code": [
+              "mx"
+            ]
+          },
+          {
+            "distance": 1369,
+            "time": 147.798,
+            "steps": [
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Mariano Matamoros",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1868,
+                "from_index": 0,
+                "to_index": 1,
+                "distance": 57,
+                "time": 6.899,
+                "instruction": {
+                  "text": "Conduzca hacia el norte por Calle Mariano Matamoros.",
+                  "type": "StartAtLeft",
+                  "transition_instruction": "Conduzca hacia el norte. Después Gire a la izquierda hacia Calle Pedro Montoya.",
+                  "pre_transition_instruction": "Conduzca hacia el norte por Calle Mariano Matamoros. Después Gire a la izquierda hacia Calle Pedro Montoya.",
+                  "post_transition_instruction": "Continúe durante 60 metros.",
+                  "streets": [
+                    "Calle Mariano Matamoros"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Pedro Montoya",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1870,
+                "from_index": 1,
+                "to_index": 2,
+                "distance": 190,
+                "time": 27.56,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Calle Pedro Montoya.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Calle Pedro Montoya.",
+                  "post_transition_instruction": "Continúe durante 200 metros.",
+                  "streets": [
+                    "Calle Pedro Montoya"
+                  ]
+                }
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "name": "Calle Pedro Moreno",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1874,
+                "from_index": 2,
+                "to_index": 5,
+                "distance": 141,
+                "time": 13.21492441860465,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Calle Pedro Moreno.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Calle Pedro Moreno.",
+                  "post_transition_instruction": "Continúe durante 1 kilómetro.",
+                  "streets": [
+                    "Calle Pedro Moreno"
+                  ]
+                }
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "name": "Calle Pedro Moreno",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1872,
+                "from_index": 5,
+                "to_index": 16,
+                "distance": 549,
+                "time": 51.453854651162786
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "name": "Calle Pedro Moreno",
+                "toll": false,
+                "tunnel": false,
+                "bridge": true,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1870,
+                "from_index": 16,
+                "to_index": 17,
+                "distance": 49,
+                "time": 4.592420542635659
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "name": "Calle Pedro Moreno",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1870,
+                "from_index": 17,
+                "to_index": 23,
+                "distance": 294,
+                "time": 27.55452325581395
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Prolongación Juan del Jarro",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1872,
+                "from_index": 23,
+                "to_index": 25,
+                "distance": 66,
+                "time": 10.199538461538461,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Prolongación Juan del Jarro.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha. Después Gire a la izquierda hacia Privada Fraccionamiento Los Vergeles.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Prolongación Juan del Jarro. Después Gire a la izquierda hacia Privada Fraccionamiento Los Vergeles.",
+                  "post_transition_instruction": "Continúe durante 70 metros.",
+                  "streets": [
+                    "Prolongación Juan del Jarro"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Privada Fraccionamiento Los Vergeles",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1872,
+                "from_index": 25,
+                "to_index": 28,
+                "distance": 23,
+                "time": 6.569,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Privada Fraccionamiento Los Vergeles.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda. Después Su destino estará a la izquierda.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Privada Fraccionamiento Los Vergeles. Después Su destino estará a la izquierda.",
+                  "post_transition_instruction": "Continúe durante 20 metros.",
+                  "streets": [
+                    "Privada Fraccionamiento Los Vergeles"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "from_index": 28,
+                "to_index": 28,
+                "distance": 0,
+                "time": 0,
+                "instruction": {
+                  "text": "Su destino está a la izquierda.",
+                  "type": "DestinationReachedLeft",
+                  "transition_instruction": "Su destino estará a la izquierda.",
+                  "pre_transition_instruction": "Su destino está a la izquierda."
+                }
+              }
+            ],
+            "country_code": [
+              "mx"
+            ]
+          },
+          {
+            "distance": 3330,
+            "time": 244.515,
+            "steps": [
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Privada Fraccionamiento Los Vergeles",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1872,
+                "from_index": 0,
+                "to_index": 2,
+                "distance": 9,
+                "time": 1.16775,
+                "instruction": {
+                  "text": "Conduzca hacia el noreste por Privada Fraccionamiento Los Vergeles.",
+                  "type": "StartAtLeft",
+                  "transition_instruction": "Conduzca hacia el noreste. Después Gire completamente a la derecha para permanecer en Privada Fraccionamiento Los Vergeles.",
+                  "pre_transition_instruction": "Conduzca hacia el noreste por Privada Fraccionamiento Los Vergeles. Después Gire completamente a la derecha para permanecer en Privada Fraccionamiento Los Vergeles.",
+                  "post_transition_instruction": "Continúe durante menos de 10 metros.",
+                  "streets": [
+                    "Privada Fraccionamiento Los Vergeles"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Prolongación Juan del Jarro",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1872,
+                "from_index": 2,
+                "to_index": 6,
+                "distance": 30,
+                "time": 10.94896551724138,
+                "instruction": {
+                  "text": "Gire completamente a la derecha para permanecer en Privada Fraccionamiento Los Vergeles.",
+                  "type": "SharpRight",
+                  "transition_instruction": "Gire completamente a la derecha. Después Gire a la izquierda hacia Prolongación Juan del Jarro.",
+                  "pre_transition_instruction": "Gire completamente a la derecha para permanecer en Privada Fraccionamiento Los Vergeles. Después Gire a la izquierda hacia Prolongación Juan del Jarro.",
+                  "post_transition_instruction": "Continúe durante 30 metros.",
+                  "streets": [
+                    "Privada Fraccionamiento Los Vergeles"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Prolongación Mariano Matamoros",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1871,
+                "from_index": 6,
+                "to_index": 9,
+                "distance": 152,
+                "time": 24.996,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Prolongación Juan del Jarro.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Prolongación Juan del Jarro.",
+                  "post_transition_instruction": "Continúe durante 200 metros.",
+                  "streets": [
+                    "Prolongación Juan del Jarro"
+                  ]
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Prolongación Mariano Matamoros",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1870,
+                "from_index": 9,
+                "to_index": 10,
+                "distance": 49,
+                "time": 6.5643666666666665,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Prolongación Mariano Matamoros.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Prolongación Mariano Matamoros.",
+                  "post_transition_instruction": "Continúe durante 100 metros.",
+                  "streets": [
+                    "Prolongación Mariano Matamoros"
+                  ]
+                }
+              },
+              {
+                "speed": 94,
+                "speed_limit": 100,
+                "truck_limit": 100,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1870,
+                "from_index": 10,
+                "to_index": 13,
+                "distance": 70,
+                "time": 9.377666666666668
+              },
+              {
+                "speed": 94,
+                "speed_limit": 100,
+                "truck_limit": 100,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1870,
+                "from_index": 13,
+                "to_index": 16,
+                "distance": 45,
+                "time": 2.0145637198622275,
+                "instruction": {
+                  "text": "Siga por la derecha en dirección a Boulevard Río Santiago.",
+                  "type": "SlightRight",
+                  "transition_instruction": "Siga por la derecha.",
+                  "pre_transition_instruction": "Siga por la derecha en dirección a Boulevard Río Santiago.",
+                  "post_transition_instruction": "Continúe durante 1,5 kilómetros.",
+                  "streets": [
+                    "Boulevard Río Santiago"
+                  ]
+                }
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Boulevard Río Santiago",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1874,
+                "from_index": 16,
+                "to_index": 53,
+                "distance": 1632,
+                "time": 73.06151090700345
+              },
+              {
+                "speed": 94,
+                "speed_limit": 100,
+                "truck_limit": 100,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 53,
+                "to_index": 56,
+                "distance": 63,
+                "time": 2.820389207807118
+              },
+              {
+                "speed": 94,
+                "speed_limit": 100,
+                "truck_limit": 100,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "primary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 56,
+                "to_index": 61,
+                "distance": 54,
+                "time": 2.4506515580736545,
+                "instruction": {
+                  "text": "Haga un cambio de sentido a la izquierda para permanecer en Boulevard Río Santiago.",
+                  "type": "TurnAroundLeft",
+                  "transition_instruction": "Haga un cambio de sentido a la izquierda.",
+                  "pre_transition_instruction": "Haga un cambio de sentido a la izquierda para permanecer en Boulevard Río Santiago.",
+                  "post_transition_instruction": "Continúe durante 400 metros.",
+                  "streets": [
+                    "Boulevard Río Santiago"
+                  ]
+                }
+              },
+              {
+                "speed": 80,
+                "speed_limit": 80,
+                "truck_limit": 80,
+                "surface": "paved_smooth",
+                "lane_count": 3,
+                "road_class": "primary",
+                "name": "Boulevard Río Santiago",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 61,
+                "to_index": 71,
+                "distance": 223,
+                "time": 10.120283286118982
+              },
+              {
+                "speed": 94,
+                "speed_limit": 100,
+                "truck_limit": 100,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 71,
+                "to_index": 74,
+                "distance": 76,
+                "time": 3.4490651558073653
+              },
+              {
+                "speed": 94,
+                "speed_limit": 100,
+                "truck_limit": 100,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "tertiary",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 74,
+                "to_index": 80,
+                "distance": 154,
+                "time": 9.54445977011494,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Prolongación Mariano Otero.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Prolongación Mariano Otero.",
+                  "post_transition_instruction": "Continúe durante 300 metros.",
+                  "streets": [
+                    "Prolongación Mariano Otero"
+                  ]
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Prolongación Mariano Otero",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1880,
+                "from_index": 80,
+                "to_index": 83,
+                "distance": 36,
+                "time": 2.2311724137931033
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Prolongación Avenida Nereo Rodríguez Barragán",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 83,
+                "to_index": 86,
+                "distance": 70,
+                "time": 4.338390804597701
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Prolongación Avenida Nereo Rodríguez Barragán",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1877,
+                "from_index": 86,
+                "to_index": 95,
+                "distance": 257,
+                "time": 31.412350584307177,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Prolongación Avenida Nereo Rodríguez Barragán.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Prolongación Avenida Nereo Rodríguez Barragán.",
+                  "post_transition_instruction": "Continúe durante 600 metros.",
+                  "streets": [
+                    "Prolongación Avenida Nereo Rodríguez Barragán"
+                  ]
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Prolongación Avenida Nereo Rodríguez Barragán",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1875,
+                "from_index": 95,
+                "to_index": 105,
+                "distance": 301,
+                "time": 36.79034056761269
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Barrio de san Sebastián",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1875,
+                "from_index": 105,
+                "to_index": 108,
+                "distance": 43,
+                "time": 5.255762938230384
+              },
+              {
+                "from_index": 108,
+                "to_index": 111,
+                "distance": 64,
+                "time": 8.423,
+                "instruction": {
+                  "text": "Siga por la izquierda en dirección a Calle Barrio de san Sebastián.",
+                  "type": "SlightLeft",
+                  "transition_instruction": "Siga por la izquierda. Después Llegará a su destino.",
+                  "pre_transition_instruction": "Siga por la izquierda en dirección a Calle Barrio de san Sebastián. Después Llegará a su destino.",
+                  "post_transition_instruction": "Continúe durante 70 metros.",
+                  "streets": [
+                    "Calle Barrio de san Sebastián"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "from_index": 111,
+                "to_index": 111,
+                "distance": 0,
+                "time": 0,
+                "instruction": {
+                  "text": "Ha llegado a su destino.",
+                  "type": "DestinationReached",
+                  "transition_instruction": "Llegará a su destino.",
+                  "pre_transition_instruction": "Ha llegado a su destino."
+                }
+              }
+            ],
+            "country_code": [
+              "mx"
+            ]
+          },
+          {
+            "distance": 560,
+            "time": 75.06,
+            "steps": [
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Barrio de san Sebastián",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1876,
+                "from_index": 0,
+                "to_index": 2,
+                "distance": 140,
+                "time": 16.847,
+                "instruction": {
+                  "text": "Conduzca hacia el sur por Calle Barrio de san Sebastián.",
+                  "type": "StartAt",
+                  "transition_instruction": "Conduzca hacia el sur. Después, en 100 metros, Gire a la derecha hacia Calle García Diego.",
+                  "pre_transition_instruction": "Conduzca hacia el sur por Calle Barrio de san Sebastián. Después, en 100 metros, Gire a la derecha hacia Calle García Diego.",
+                  "post_transition_instruction": "Continúe durante 100 metros.",
+                  "streets": [
+                    "Calle Barrio de san Sebastián"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "tertiary",
+                "name": "Calle García Diego",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1878,
+                "from_index": 2,
+                "to_index": 3,
+                "distance": 76,
+                "time": 8.945,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Calle García Diego.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha. Después Gire a la izquierda hacia Calle Avanzada.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Calle García Diego. Después Gire a la izquierda hacia Calle Avanzada.",
+                  "post_transition_instruction": "Continúe durante 80 metros.",
+                  "streets": [
+                    "Calle García Diego"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Calle Avanzada",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1877,
+                "from_index": 3,
+                "to_index": 6,
+                "distance": 196,
+                "time": 29.587,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Calle Avanzada.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Calle Avanzada.",
+                  "post_transition_instruction": "Continúe durante 200 metros.",
+                  "streets": [
+                    "Calle Avanzada"
+                  ]
+                }
+              },
+              {
+                "speed": 40,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved_smooth",
+                "lane_count": 2,
+                "road_class": "tertiary",
+                "name": "Avenida Nicolás Zapata",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1875,
+                "from_index": 6,
+                "to_index": 9,
+                "distance": 114,
+                "time": 13.888,
+                "instruction": {
+                  "text": "Gire a la izquierda hacia Avenida Nicolás Zapata.",
+                  "type": "Left",
+                  "transition_instruction": "Gire a la izquierda. Después, en 100 metros, Gire a la derecha hacia Privada Regina.",
+                  "pre_transition_instruction": "Gire a la izquierda hacia Avenida Nicolás Zapata. Después, en 100 metros, Gire a la derecha hacia Privada Regina.",
+                  "post_transition_instruction": "Continúe durante 100 metros.",
+                  "streets": [
+                    "Avenida Nicolás Zapata"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Privada Regina",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1876,
+                "from_index": 9,
+                "to_index": 10,
+                "distance": 8,
+                "time": 1.403878787878788,
+                "instruction": {
+                  "text": "Gire a la derecha hacia Privada Regina.",
+                  "type": "Right",
+                  "transition_instruction": "Gire a la derecha. Después Llegará a su destino.",
+                  "pre_transition_instruction": "Gire a la derecha hacia Privada Regina. Después Llegará a su destino.",
+                  "post_transition_instruction": "Continúe durante 30 metros.",
+                  "streets": [
+                    "Privada Regina"
+                  ],
+                  "contains_next_instruction": true
+                }
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Privada Regina",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 1876,
+                "from_index": 10,
+                "to_index": 11,
+                "distance": 11,
+                "time": 1.9303333333333335
+              },
+              {
+                "speed": 30,
+                "speed_limit": 30,
+                "truck_limit": 30,
+                "surface": "paved_smooth",
+                "lane_count": 1,
+                "road_class": "residential",
+                "name": "Privada Regina",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 1876,
+                "from_index": 11,
+                "to_index": 14,
+                "distance": 15,
+                "time": 2.6322727272727273
+              },
+              {
+                "from_index": 14,
+                "to_index": 14,
+                "distance": 0,
+                "time": 0,
+                "instruction": {
+                  "text": "Ha llegado a su destino.",
+                  "type": "DestinationReached",
+                  "transition_instruction": "Llegará a su destino.",
+                  "pre_transition_instruction": "Ha llegado a su destino."
+                }
+              }
+            ],
+            "country_code": [
+              "mx"
+            ]
+          }
+        ],
+        "country_code": [
+          "mx"
+        ]
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -101.008172,
+              22.203913
+            ],
+            [
+              -101.008221,
+              22.203949
+            ],
+            [
+              -101.00831,
+              22.204046
+            ],
+            [
+              -101.008497,
+              22.204263
+            ],
+            [
+              -101.008991,
+              22.20485
+            ],
+            [
+              -101.009511,
+              22.205734
+            ],
+            [
+              -101.009772,
+              22.206218
+            ],
+            [
+              -101.009212,
+              22.206417
+            ],
+            [
+              -101.008296,
+              22.20674
+            ],
+            [
+              -101.008296,
+              22.206782
+            ],
+            [
+              -101.008304,
+              22.206824
+            ],
+            [
+              -101.008319,
+              22.206863
+            ],
+            [
+              -101.008343,
+              22.206902
+            ],
+            [
+              -101.008373,
+              22.206936
+            ],
+            [
+              -101.00841,
+              22.206964
+            ],
+            [
+              -101.008922,
+              22.206804
+            ],
+            [
+              -101.009908,
+              22.206457
+            ],
+            [
+              -101.01057,
+              22.206186
+            ],
+            [
+              -101.011563,
+              22.205725
+            ],
+            [
+              -101.013283,
+              22.205014
+            ],
+            [
+              -101.014742,
+              22.204399
+            ],
+            [
+              -101.015053,
+              22.20423
+            ],
+            [
+              -101.015348,
+              22.204026
+            ],
+            [
+              -101.015637,
+              22.203763
+            ],
+            [
+              -101.015801,
+              22.203497
+            ],
+            [
+              -101.015933,
+              22.203225
+            ],
+            [
+              -101.016037,
+              22.202785
+            ],
+            [
+              -101.016051,
+              22.202245
+            ],
+            [
+              -101.016028,
+              22.201641
+            ],
+            [
+              -101.016024,
+              22.201529
+            ],
+            [
+              -101.016088,
+              22.200946
+            ],
+            [
+              -101.016206,
+              22.200559
+            ],
+            [
+              -101.016451,
+              22.200133
+            ],
+            [
+              -101.016734,
+              22.199788
+            ],
+            [
+              -101.016802,
+              22.199705
+            ],
+            [
+              -101.017334,
+              22.199256
+            ],
+            [
+              -101.017372,
+              22.199224
+            ],
+            [
+              -101.017565,
+              22.199046
+            ],
+            [
+              -101.017819,
+              22.198828
+            ],
+            [
+              -101.018344,
+              22.19837
+            ],
+            [
+              -101.018557,
+              22.198184
+            ],
+            [
+              -101.018652,
+              22.198106
+            ],
+            [
+              -101.018835,
+              22.197947
+            ],
+            [
+              -101.018995,
+              22.197817
+            ],
+            [
+              -101.020626,
+              22.196357
+            ],
+            [
+              -101.023231,
+              22.194052
+            ],
+            [
+              -101.024267,
+              22.193154
+            ],
+            [
+              -101.02622,
+              22.191499
+            ],
+            [
+              -101.026264,
+              22.191462
+            ],
+            [
+              -101.02633,
+              22.191405
+            ],
+            [
+              -101.027086,
+              22.190757
+            ],
+            [
+              -101.027985,
+              22.189972
+            ],
+            [
+              -101.029511,
+              22.188641
+            ],
+            [
+              -101.029654,
+              22.188516
+            ],
+            [
+              -101.031696,
+              22.186733
+            ],
+            [
+              -101.031933,
+              22.186524
+            ],
+            [
+              -101.032368,
+              22.186117
+            ],
+            [
+              -101.032549,
+              22.18591
+            ],
+            [
+              -101.03276,
+              22.185601
+            ],
+            [
+              -101.032913,
+              22.185297
+            ],
+            [
+              -101.033106,
+              22.184847
+            ],
+            [
+              -101.033354,
+              22.184241
+            ],
+            [
+              -101.03364,
+              22.183588
+            ],
+            [
+              -101.034632,
+              22.181326
+            ],
+            [
+              -101.034982,
+              22.180596
+            ],
+            [
+              -101.035923,
+              22.178453
+            ],
+            [
+              -101.036215,
+              22.177787
+            ],
+            [
+              -101.0363,
+              22.177582
+            ],
+            [
+              -101.036529,
+              22.177019
+            ],
+            [
+              -101.036658,
+              22.176714
+            ],
+            [
+              -101.036784,
+              22.176413
+            ],
+            [
+              -101.037056,
+              22.175734
+            ],
+            [
+              -101.037088,
+              22.17566
+            ],
+            [
+              -101.037167,
+              22.175472
+            ],
+            [
+              -101.037307,
+              22.175145
+            ],
+            [
+              -101.037663,
+              22.174526
+            ],
+            [
+              -101.038063,
+              22.174037
+            ],
+            [
+              -101.038294,
+              22.173795
+            ],
+            [
+              -101.038732,
+              22.173339
+            ],
+            [
+              -101.039658,
+              22.172385
+            ],
+            [
+              -101.039801,
+              22.172249
+            ],
+            [
+              -101.03997,
+              22.172037
+            ],
+            [
+              -101.040334,
+              22.171631
+            ],
+            [
+              -101.040401,
+              22.17152
+            ],
+            [
+              -101.040446,
+              22.171435
+            ],
+            [
+              -101.040518,
+              22.171299
+            ],
+            [
+              -101.040577,
+              22.171179
+            ],
+            [
+              -101.040629,
+              22.171051
+            ],
+            [
+              -101.04066,
+              22.170924
+            ],
+            [
+              -101.040679,
+              22.170796
+            ],
+            [
+              -101.040684,
+              22.170691
+            ],
+            [
+              -101.040686,
+              22.170578
+            ],
+            [
+              -101.040667,
+              22.170443
+            ],
+            [
+              -101.040642,
+              22.170306
+            ],
+            [
+              -101.04058,
+              22.170067
+            ],
+            [
+              -101.040526,
+              22.16992
+            ],
+            [
+              -101.040349,
+              22.169423
+            ],
+            [
+              -101.040263,
+              22.1692
+            ],
+            [
+              -101.040077,
+              22.168715
+            ],
+            [
+              -101.039687,
+              22.167629
+            ],
+            [
+              -101.039291,
+              22.166553
+            ],
+            [
+              -101.039111,
+              22.166085
+            ],
+            [
+              -101.039078,
+              22.166003
+            ],
+            [
+              -101.038721,
+              22.165025
+            ],
+            [
+              -101.038639,
+              22.164797
+            ],
+            [
+              -101.038084,
+              22.163245
+            ],
+            [
+              -101.037968,
+              22.162936
+            ],
+            [
+              -101.037612,
+              22.161943
+            ],
+            [
+              -101.036889,
+              22.160057
+            ],
+            [
+              -101.036827,
+              22.159885
+            ],
+            [
+              -101.036594,
+              22.159191
+            ],
+            [
+              -101.036096,
+              22.157918
+            ],
+            [
+              -101.035597,
+              22.156507
+            ],
+            [
+              -101.035437,
+              22.156033
+            ],
+            [
+              -101.035153,
+              22.15515
+            ],
+            [
+              -101.034863,
+              22.154348
+            ],
+            [
+              -101.034712,
+              22.15399
+            ],
+            [
+              -101.03444,
+              22.153309
+            ],
+            [
+              -101.034318,
+              22.15306
+            ],
+            [
+              -101.034139,
+              22.152818
+            ],
+            [
+              -101.033884,
+              22.152599
+            ],
+            [
+              -101.033597,
+              22.152395
+            ],
+            [
+              -101.03327,
+              22.152268
+            ],
+            [
+              -101.032579,
+              22.152123
+            ],
+            [
+              -101.03184,
+              22.15197
+            ],
+            [
+              -101.031687,
+              22.15194
+            ],
+            [
+              -101.031094,
+              22.151832
+            ],
+            [
+              -101.030316,
+              22.151681
+            ],
+            [
+              -101.029727,
+              22.151557
+            ],
+            [
+              -101.029185,
+              22.151438
+            ],
+            [
+              -101.028983,
+              22.151369
+            ],
+            [
+              -101.02841,
+              22.151101
+            ],
+            [
+              -101.028299,
+              22.151032
+            ],
+            [
+              -101.02816,
+              22.151104
+            ],
+            [
+              -101.027539,
+              22.151341
+            ],
+            [
+              -101.027531,
+              22.151344
+            ],
+            [
+              -101.027176,
+              22.151451
+            ],
+            [
+              -101.026907,
+              22.151532
+            ],
+            [
+              -101.026062,
+              22.15176
+            ],
+            [
+              -101.025499,
+              22.151923
+            ],
+            [
+              -101.025229,
+              22.151945
+            ],
+            [
+              -101.024972,
+              22.151926
+            ],
+            [
+              -101.024885,
+              22.151921
+            ],
+            [
+              -101.024853,
+              22.151918
+            ],
+            [
+              -101.023506,
+              22.151853
+            ],
+            [
+              -101.023113,
+              22.151829
+            ],
+            [
+              -101.022766,
+              22.15175
+            ],
+            [
+              -101.022162,
+              22.151485
+            ],
+            [
+              -101.021855,
+              22.151358
+            ],
+            [
+              -101.021744,
+              22.151301
+            ],
+            [
+              -101.021153,
+              22.151128
+            ],
+            [
+              -101.020686,
+              22.151038
+            ],
+            [
+              -101.020202,
+              22.150954
+            ],
+            [
+              -101.019721,
+              22.150864
+            ],
+            [
+              -101.019607,
+              22.150843
+            ],
+            [
+              -101.019621,
+              22.150567
+            ],
+            [
+              -101.01967,
+              22.149368
+            ],
+            [
+              -101.019688,
+              22.148757
+            ],
+            [
+              -101.019678,
+              22.148642
+            ],
+            [
+              -101.019606,
+              22.148465
+            ],
+            [
+              -101.019451,
+              22.148261
+            ],
+            [
+              -101.019325,
+              22.148167
+            ],
+            [
+              -101.019168,
+              22.148095
+            ],
+            [
+              -101.019043,
+              22.148075
+            ],
+            [
+              -101.018878,
+              22.14807
+            ],
+            [
+              -101.018784,
+              22.148075
+            ],
+            [
+              -101.018526,
+              22.148098
+            ],
+            [
+              -101.018003,
+              22.148146
+            ],
+            [
+              -101.017216,
+              22.148212
+            ],
+            [
+              -101.016669,
+              22.148265
+            ],
+            [
+              -101.016655,
+              22.148266
+            ],
+            [
+              -101.016383,
+              22.148296
+            ],
+            [
+              -101.01545,
+              22.148382
+            ],
+            [
+              -101.014879,
+              22.148431
+            ],
+            [
+              -101.014268,
+              22.148473
+            ],
+            [
+              -101.013418,
+              22.14851
+            ],
+            [
+              -101.012646,
+              22.148567
+            ],
+            [
+              -101.011869,
+              22.148624
+            ],
+            [
+              -101.011754,
+              22.148629
+            ],
+            [
+              -101.01116,
+              22.148678
+            ],
+            [
+              -101.011008,
+              22.14869
+            ],
+            [
+              -101.010944,
+              22.148695
+            ],
+            [
+              -101.010716,
+              22.148714
+            ],
+            [
+              -101.010534,
+              22.148729
+            ],
+            [
+              -101.010125,
+              22.148761
+            ],
+            [
+              -101.009803,
+              22.148787
+            ],
+            [
+              -101.009582,
+              22.148805
+            ],
+            [
+              -101.009533,
+              22.148809
+            ],
+            [
+              -101.009063,
+              22.148844
+            ],
+            [
+              -101.008514,
+              22.148885
+            ],
+            [
+              -101.007944,
+              22.148927
+            ],
+            [
+              -101.007372,
+              22.148969
+            ],
+            [
+              -101.007116,
+              22.14899
+            ],
+            [
+              -101.006991,
+              22.149
+            ],
+            [
+              -101.006623,
+              22.149027
+            ],
+            [
+              -101.006158,
+              22.149063
+            ],
+            [
+              -101.005483,
+              22.149115
+            ],
+            [
+              -101.005133,
+              22.149136
+            ],
+            [
+              -101.005009,
+              22.149147
+            ],
+            [
+              -101.004703,
+              22.149176
+            ],
+            [
+              -101.00441,
+              22.149203
+            ],
+            [
+              -101.003806,
+              22.149259
+            ],
+            [
+              -101.003239,
+              22.149302
+            ],
+            [
+              -101.002652,
+              22.149347
+            ],
+            [
+              -101.002194,
+              22.149381
+            ],
+            [
+              -101.001963,
+              22.149393
+            ],
+            [
+              -101.001367,
+              22.149436
+            ],
+            [
+              -101.001271,
+              22.149442
+            ],
+            [
+              -101.001177,
+              22.149452
+            ],
+            [
+              -101.000905,
+              22.14948
+            ],
+            [
+              -101.000321,
+              22.149532
+            ],
+            [
+              -101.000057,
+              22.149549
+            ],
+            [
+              -100.999806,
+              22.149567
+            ],
+            [
+              -100.999254,
+              22.149606
+            ],
+            [
+              -100.999166,
+              22.149613
+            ],
+            [
+              -100.998952,
+              22.149626
+            ],
+            [
+              -100.998773,
+              22.149637
+            ],
+            [
+              -100.996917,
+              22.149799
+            ],
+            [
+              -100.996382,
+              22.149845
+            ],
+            [
+              -100.995744,
+              22.149893
+            ],
+            [
+              -100.995334,
+              22.149924
+            ],
+            [
+              -100.994452,
+              22.149991
+            ],
+            [
+              -100.994364,
+              22.149998
+            ],
+            [
+              -100.993357,
+              22.150077
+            ],
+            [
+              -100.993133,
+              22.150096
+            ],
+            [
+              -100.993054,
+              22.150103
+            ],
+            [
+              -100.992497,
+              22.150143
+            ],
+            [
+              -100.991597,
+              22.150188
+            ],
+            [
+              -100.991506,
+              22.150192
+            ],
+            [
+              -100.990443,
+              22.150282
+            ],
+            [
+              -100.990107,
+              22.150305
+            ],
+            [
+              -100.989953,
+              22.150318
+            ],
+            [
+              -100.989846,
+              22.150326
+            ]
+          ],
+          [
+            [
+              -100.989846,
+              22.150326
+            ],
+            [
+              -100.987832,
+              22.150501
+            ],
+            [
+              -100.98773,
+              22.15051
+            ],
+            [
+              -100.987037,
+              22.150567
+            ],
+            [
+              -100.986398,
+              22.150623
+            ],
+            [
+              -100.986233,
+              22.150638
+            ],
+            [
+              -100.985743,
+              22.15068
+            ],
+            [
+              -100.985374,
+              22.150709
+            ],
+            [
+              -100.985296,
+              22.150715
+            ],
+            [
+              -100.9853,
+              22.150822
+            ],
+            [
+              -100.986436,
+              22.150716
+            ],
+            [
+              -100.987624,
+              22.150623
+            ],
+            [
+              -100.987742,
+              22.150613
+            ],
+            [
+              -100.988744,
+              22.150532
+            ],
+            [
+              -100.989722,
+              22.150455
+            ],
+            [
+              -100.989846,
+              22.150445
+            ],
+            [
+              -100.991455,
+              22.150317
+            ],
+            [
+              -100.991558,
+              22.150309
+            ],
+            [
+              -100.992308,
+              22.150245
+            ],
+            [
+              -100.992929,
+              22.150193
+            ],
+            [
+              -100.993025,
+              22.150185
+            ],
+            [
+              -100.993065,
+              22.150181
+            ],
+            [
+              -100.993932,
+              22.150112
+            ],
+            [
+              -100.994288,
+              22.150085
+            ],
+            [
+              -100.99437,
+              22.150079
+            ],
+            [
+              -100.995033,
+              22.150034
+            ],
+            [
+              -100.996942,
+              22.149888
+            ],
+            [
+              -100.997737,
+              22.149813
+            ],
+            [
+              -100.998148,
+              22.149782
+            ],
+            [
+              -100.998879,
+              22.149725
+            ],
+            [
+              -100.999068,
+              22.149711
+            ],
+            [
+              -100.999173,
+              22.149704
+            ],
+            [
+              -100.999248,
+              22.150477
+            ],
+            [
+              -100.999316,
+              22.151036
+            ],
+            [
+              -100.999356,
+              22.15154
+            ],
+            [
+              -100.999388,
+              22.15196
+            ],
+            [
+              -100.999432,
+              22.15256
+            ],
+            [
+              -100.999736,
+              22.152514
+            ],
+            [
+              -101.000094,
+              22.15246
+            ],
+            [
+              -101.000094,
+              22.15246
+            ]
+          ],
+          [
+            [
+              -101.000094,
+              22.15246
+            ],
+            [
+              -101.000284,
+              22.152441
+            ],
+            [
+              -101.000241,
+              22.153011
+            ],
+            [
+              -101.000169,
+              22.153734
+            ],
+            [
+              -100.999557,
+              22.153757
+            ],
+            [
+              -100.999602,
+              22.154134
+            ],
+            [
+              -100.999635,
+              22.154439
+            ],
+            [
+              -100.999755,
+              22.15541
+            ],
+            [
+              -100.99976,
+              22.155489
+            ],
+            [
+              -100.999852,
+              22.156439
+            ],
+            [
+              -100.999875,
+              22.156718
+            ],
+            [
+              -100.999942,
+              22.157388
+            ],
+            [
+              -100.999948,
+              22.157447
+            ],
+            [
+              -100.999958,
+              22.157547
+            ],
+            [
+              -100.999873,
+              22.157686
+            ],
+            [
+              -100.999816,
+              22.157783
+            ],
+            [
+              -100.999719,
+              22.15789
+            ],
+            [
+              -100.999513,
+              22.158093
+            ],
+            [
+              -100.999432,
+              22.158205
+            ],
+            [
+              -100.99936,
+              22.158362
+            ],
+            [
+              -100.999266,
+              22.158635
+            ],
+            [
+              -100.999185,
+              22.158846
+            ],
+            [
+              -100.999105,
+              22.15907
+            ],
+            [
+              -100.999046,
+              22.159144
+            ],
+            [
+              -100.998732,
+              22.159374
+            ],
+            [
+              -100.998437,
+              22.159626
+            ],
+            [
+              -100.997876,
+              22.160086
+            ],
+            [
+              -100.99771,
+              22.160208
+            ],
+            [
+              -100.997459,
+              22.160389
+            ],
+            [
+              -100.997327,
+              22.160498
+            ],
+            [
+              -100.997206,
+              22.160567
+            ],
+            [
+              -100.997096,
+              22.160597
+            ],
+            [
+              -100.996578,
+              22.160632
+            ],
+            [
+              -100.99632,
+              22.160729
+            ],
+            [
+              -100.996098,
+              22.160867
+            ],
+            [
+              -100.995958,
+              22.161022
+            ],
+            [
+              -100.995801,
+              22.161204
+            ],
+            [
+              -100.995698,
+              22.161392
+            ],
+            [
+              -100.99506,
+              22.162259
+            ],
+            [
+              -100.994816,
+              22.16248
+            ],
+            [
+              -100.994262,
+              22.162814
+            ],
+            [
+              -100.993833,
+              22.163042
+            ],
+            [
+              -100.993531,
+              22.163154
+            ],
+            [
+              -100.993321,
+              22.163232
+            ],
+            [
+              -100.992247,
+              22.163413
+            ],
+            [
+              -100.991329,
+              22.163529
+            ],
+            [
+              -100.990298,
+              22.163598
+            ],
+            [
+              -100.989771,
+              22.163535
+            ],
+            [
+              -100.989222,
+              22.163443
+            ],
+            [
+              -100.988896,
+              22.163433
+            ],
+            [
+              -100.988539,
+              22.163485
+            ],
+            [
+              -100.988348,
+              22.163532
+            ],
+            [
+              -100.988171,
+              22.163628
+            ],
+            [
+              -100.987928,
+              22.163833
+            ],
+            [
+              -100.987741,
+              22.164069
+            ],
+            [
+              -100.987526,
+              22.164237
+            ],
+            [
+              -100.987394,
+              22.164358
+            ],
+            [
+              -100.987271,
+              22.164482
+            ],
+            [
+              -100.987158,
+              22.164562
+            ],
+            [
+              -100.987043,
+              22.164604
+            ],
+            [
+              -100.986928,
+              22.164627
+            ],
+            [
+              -100.986753,
+              22.164632
+            ],
+            [
+              -100.986549,
+              22.164614
+            ],
+            [
+              -100.986337,
+              22.164606
+            ],
+            [
+              -100.98617,
+              22.164581
+            ],
+            [
+              -100.98611,
+              22.16438
+            ],
+            [
+              -100.985898,
+              22.163676
+            ],
+            [
+              -100.985871,
+              22.163585
+            ],
+            [
+              -100.985639,
+              22.162846
+            ],
+            [
+              -100.985599,
+              22.162716
+            ],
+            [
+              -100.985336,
+              22.161912
+            ],
+            [
+              -100.985166,
+              22.161366
+            ],
+            [
+              -100.985103,
+              22.16117
+            ],
+            [
+              -100.985002,
+              22.160876
+            ],
+            [
+              -100.984863,
+              22.160457
+            ],
+            [
+              -100.984722,
+              22.160056
+            ],
+            [
+              -100.984565,
+              22.1596
+            ],
+            [
+              -100.984451,
+              22.159252
+            ],
+            [
+              -100.984224,
+              22.158519
+            ],
+            [
+              -100.984194,
+              22.158443
+            ],
+            [
+              -100.984041,
+              22.157921
+            ],
+            [
+              -100.982247,
+              22.158243
+            ],
+            [
+              -100.982486,
+              22.159053
+            ]
+          ],
+          [
+            [
+              -100.982486,
+              22.159053
+            ],
+            [
+              -100.982633,
+              22.159549
+            ],
+            [
+              -100.984451,
+              22.159252
+            ],
+            [
+              -100.984565,
+              22.1596
+            ],
+            [
+              -100.984722,
+              22.160056
+            ],
+            [
+              -100.984863,
+              22.160457
+            ],
+            [
+              -100.985002,
+              22.160876
+            ],
+            [
+              -100.985103,
+              22.16117
+            ],
+            [
+              -100.985166,
+              22.161366
+            ],
+            [
+              -100.985336,
+              22.161912
+            ],
+            [
+              -100.985599,
+              22.162716
+            ],
+            [
+              -100.985639,
+              22.162846
+            ],
+            [
+              -100.985871,
+              22.163585
+            ],
+            [
+              -100.985898,
+              22.163676
+            ],
+            [
+              -100.98611,
+              22.16438
+            ],
+            [
+              -100.98617,
+              22.164581
+            ],
+            [
+              -100.986376,
+              22.165189
+            ],
+            [
+              -100.986503,
+              22.165612
+            ],
+            [
+              -100.986548,
+              22.165746
+            ],
+            [
+              -100.98679,
+              22.166459
+            ],
+            [
+              -100.986876,
+              22.166745
+            ],
+            [
+              -100.98693,
+              22.166939
+            ],
+            [
+              -100.987077,
+              22.167462
+            ],
+            [
+              -100.987318,
+              22.168149
+            ],
+            [
+              -100.986979,
+              22.168252
+            ],
+            [
+              -100.986712,
+              22.168339
+            ],
+            [
+              -100.986729,
+              22.168492
+            ],
+            [
+              -100.986727,
+              22.168549
+            ],
+            [
+              -100.986727,
+              22.168549
+            ]
+          ],
+          [
+            [
+              -100.986727,
+              22.168549
+            ],
+            [
+              -100.986712,
+              22.168588
+            ],
+            [
+              -100.986693,
+              22.168619
+            ],
+            [
+              -100.986671,
+              22.168588
+            ],
+            [
+              -100.986661,
+              22.168546
+            ],
+            [
+              -100.986655,
+              22.168497
+            ],
+            [
+              -100.986645,
+              22.168361
+            ],
+            [
+              -100.985943,
+              22.168595
+            ],
+            [
+              -100.985533,
+              22.168712
+            ],
+            [
+              -100.985244,
+              22.168785
+            ],
+            [
+              -100.985089,
+              22.168364
+            ],
+            [
+              -100.985046,
+              22.168263
+            ],
+            [
+              -100.984976,
+              22.168014
+            ],
+            [
+              -100.984908,
+              22.167756
+            ],
+            [
+              -100.984914,
+              22.16768
+            ],
+            [
+              -100.984956,
+              22.167612
+            ],
+            [
+              -100.98516,
+              22.167453
+            ],
+            [
+              -100.985243,
+              22.167389
+            ],
+            [
+              -100.985301,
+              22.167288
+            ],
+            [
+              -100.985348,
+              22.167023
+            ],
+            [
+              -100.985471,
+              22.166518
+            ],
+            [
+              -100.985604,
+              22.166263
+            ],
+            [
+              -100.985874,
+              22.165931
+            ],
+            [
+              -100.986045,
+              22.165747
+            ],
+            [
+              -100.986262,
+              22.16558
+            ],
+            [
+              -100.986533,
+              22.165439
+            ],
+            [
+              -100.986819,
+              22.165323
+            ],
+            [
+              -100.987,
+              22.16522
+            ],
+            [
+              -100.987144,
+              22.165072
+            ],
+            [
+              -100.98728,
+              22.164893
+            ],
+            [
+              -100.987598,
+              22.164495
+            ],
+            [
+              -100.987924,
+              22.164104
+            ],
+            [
+              -100.988036,
+              22.164012
+            ],
+            [
+              -100.988159,
+              22.16395
+            ],
+            [
+              -100.988307,
+              22.163926
+            ],
+            [
+              -100.989196,
+              22.163848
+            ],
+            [
+              -100.989758,
+              22.163811
+            ],
+            [
+              -100.990474,
+              22.163776
+            ],
+            [
+              -100.991338,
+              22.163695
+            ],
+            [
+              -100.99227,
+              22.163562
+            ],
+            [
+              -100.993365,
+              22.163344
+            ],
+            [
+              -100.993889,
+              22.163196
+            ],
+            [
+              -100.994134,
+              22.163106
+            ],
+            [
+              -100.994409,
+              22.163002
+            ],
+            [
+              -100.994637,
+              22.16286
+            ],
+            [
+              -100.994841,
+              22.162689
+            ],
+            [
+              -100.995224,
+              22.162236
+            ],
+            [
+              -100.995565,
+              22.161843
+            ],
+            [
+              -100.996169,
+              22.161208
+            ],
+            [
+              -100.996361,
+              22.161002
+            ],
+            [
+              -100.996567,
+              22.160904
+            ],
+            [
+              -100.996825,
+              22.160878
+            ],
+            [
+              -100.997661,
+              22.160859
+            ],
+            [
+              -100.997872,
+              22.160831
+            ],
+            [
+              -100.998129,
+              22.160758
+            ],
+            [
+              -100.99828,
+              22.16066
+            ],
+            [
+              -100.9984,
+              22.16056
+            ],
+            [
+              -100.998421,
+              22.160452
+            ],
+            [
+              -100.998418,
+              22.160333
+            ],
+            [
+              -100.998356,
+              22.160225
+            ],
+            [
+              -100.998307,
+              22.16017
+            ],
+            [
+              -100.998263,
+              22.160123
+            ],
+            [
+              -100.998162,
+              22.16007
+            ],
+            [
+              -100.998041,
+              22.160068
+            ],
+            [
+              -100.997876,
+              22.160086
+            ],
+            [
+              -100.99771,
+              22.160208
+            ],
+            [
+              -100.997459,
+              22.160389
+            ],
+            [
+              -100.997327,
+              22.160498
+            ],
+            [
+              -100.997206,
+              22.160567
+            ],
+            [
+              -100.997096,
+              22.160597
+            ],
+            [
+              -100.996578,
+              22.160632
+            ],
+            [
+              -100.99632,
+              22.160729
+            ],
+            [
+              -100.996098,
+              22.160867
+            ],
+            [
+              -100.995958,
+              22.161022
+            ],
+            [
+              -100.995801,
+              22.161204
+            ],
+            [
+              -100.995625,
+              22.161345
+            ],
+            [
+              -100.995436,
+              22.161569
+            ],
+            [
+              -100.995082,
+              22.162083
+            ],
+            [
+              -100.995009,
+              22.162172
+            ],
+            [
+              -100.994955,
+              22.162212
+            ],
+            [
+              -100.994862,
+              22.162259
+            ],
+            [
+              -100.994749,
+              22.162294
+            ],
+            [
+              -100.994644,
+              22.162294
+            ],
+            [
+              -100.994528,
+              22.16224
+            ],
+            [
+              -100.994508,
+              22.162136
+            ],
+            [
+              -100.994425,
+              22.161696
+            ],
+            [
+              -100.994424,
+              22.161621
+            ],
+            [
+              -100.994715,
+              22.161535
+            ],
+            [
+              -100.994949,
+              22.161458
+            ],
+            [
+              -100.995008,
+              22.16144
+            ],
+            [
+              -100.995047,
+              22.161428
+            ],
+            [
+              -100.995373,
+              22.161147
+            ],
+            [
+              -100.99566,
+              22.160858
+            ],
+            [
+              -100.995714,
+              22.160804
+            ],
+            [
+              -100.995931,
+              22.160589
+            ],
+            [
+              -100.996326,
+              22.160207
+            ],
+            [
+              -100.996441,
+              22.159882
+            ],
+            [
+              -100.99645,
+              22.159859
+            ],
+            [
+              -100.996595,
+              22.159436
+            ],
+            [
+              -100.99662,
+              22.159277
+            ],
+            [
+              -100.99671,
+              22.159103
+            ],
+            [
+              -100.996894,
+              22.158855
+            ],
+            [
+              -100.997326,
+              22.158317
+            ],
+            [
+              -100.997446,
+              22.158156
+            ],
+            [
+              -100.997509,
+              22.157977
+            ],
+            [
+              -100.997534,
+              22.157791
+            ],
+            [
+              -100.997536,
+              22.157656
+            ],
+            [
+              -100.997559,
+              22.157525
+            ],
+            [
+              -100.997611,
+              22.157417
+            ],
+            [
+              -100.997547,
+              22.157283
+            ],
+            [
+              -100.997523,
+              22.157085
+            ],
+            [
+              -100.997514,
+              22.156846
+            ]
+          ],
+          [
+            [
+              -100.997514,
+              22.156846
+            ],
+            [
+              -100.997486,
+              22.156149
+            ],
+            [
+              -100.997446,
+              22.155587
+            ],
+            [
+              -100.998183,
+              22.155542
+            ],
+            [
+              -100.99805,
+              22.154871
+            ],
+            [
+              -100.997922,
+              22.154324
+            ],
+            [
+              -100.997787,
+              22.153814
+            ],
+            [
+              -100.997388,
+              22.153827
+            ],
+            [
+              -100.997172,
+              22.153835
+            ],
+            [
+              -100.996679,
+              22.15386
+            ],
+            [
+              -100.996669,
+              22.153791
+            ],
+            [
+              -100.996655,
+              22.153692
+            ],
+            [
+              -100.996714,
+              22.153629
+            ],
+            [
+              -100.996727,
+              22.15358
+            ],
+            [
+              -100.996727,
+              22.15358
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "mode": "light_truck",
+    "waypoints": [
+      {
+        "lat": 22.203888,
+        "lon": -101.008194
+      },
+      {
+        "lat": 22.1503261,
+        "lon": -100.989846
+      },
+      {
+        "lat": 22.1524597,
+        "lon": -101.0000942
+      },
+      {
+        "lat": 22.159035,
+        "lon": -100.982558
+      },
+      {
+        "lat": 22.168564,
+        "lon": -100.986801
+      },
+      {
+        "lat": 22.156846,
+        "lon": -100.99752
+      },
+      {
+        "lat": 22.1535799,
+        "lon": -100.9967271
+      }
+    ],
+    "units": "metric",
+    "details": [
+      "instruction_details",
+      "route_details"
+    ]
+  },
+  "type": "FeatureCollection"
+}
